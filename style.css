@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+*
+{
+    font-family: 'lobster', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #260326;;
+}
+.calculator {
+    display: grid;
+    
+}
+.calculator .value {
+    grid-column: span 4;
+    height: 100px;
+    width: 300px;
+    text-align: right;
+    padding: 15px;
+    font-size: 25px;
+}
+ .calculator span {
+    height: 60px;
+    border: 1px solid blueviolet;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+}
+.calculator .clear {
+    grid-column: span 2;
+    justify-content: center;
+    align-content: center;
+}
+.calculator span.plus {
+    grid-row: span 2;
+    justify-content: center;
+    text-align: center;
+    height: 120px;
+    padding-top: 45px;
+}
